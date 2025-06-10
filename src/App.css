@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+  background-color: #12141D;
+  padding: 30px 0;
+}
+.h-ota{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+}  
+.bt-green{
+  padding: 9px 26px;
+  background: #CCFF8B;
+  font-size: 17px;
+  border-radius: 8px;
+  border: none;
+}
+
+.s1 ul{
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  border-bottom: 1px solid #CCFF8B;
+  width: 400px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  padding-top: 30px;
+  list-style: none;
+  margin-bottom: 50px;
+}
+.s1 ul li a:hover{
+  color: #CCFF8B;
+}
+.s1{
+  background-color: #12141D;
+  padding: 50px 0;
+}
+.s1t h1{
+  color: white;
+  font-size: 57px;
+}
+.s1t p{
+  color: white;
+  margin: 20px 0;
+}
+.bt-w{
+  padding: 9px 26px;
+  font-size: 17px;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+.s1ota{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 280px;
+}
+.h1{
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  margin: 30px 0 10px;
+}
+.p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0 30px;
+}
+
+
+.s2{
+  background-color: #E7E7E7;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.s2 h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.s2 p{
+  text-align: center;
+  font-size: 20px;
+}
+.s2card{
+  width: 360px;
+  height: 300px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+.s2card p{
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+}
+.s2card h2{
+  margin: 20px 0;
+}
+.s2ota{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.s3{
+  background-color: #12141D;
+  padding: 30px 0 50px;
+}
+.s3ota h1{
+  color: white;
+  font-size: 35px;
+}
+.s3ota p{
+  color: white;
+  font-size: 20px;
+  line-height: 28px;
+}
+.s3ota{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.btns .bt-w{
+  margin-left: 0;
+  background-color: white;
+  border: none;
+}
+.s2ot .s2card{
+  text-align: center;
+  height: 580px;
+}
+.s2ot .s2card p{
+  text-align: center;
+  margin: 10px;
+}
+.s2ot .s2card h2{
+  text-align: center;
+  margin: 10px;
+}
+.s2card ul{
+  list-style: none;
+}
+.s2card h3{
+  margin: 10px 0;
+}
+.s2ot{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.s4{
+  background-color: #12141D;
+  padding: 55px 0;
+}
+.s4 h1{
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+.s4box p,h3,h4{
+  color: white;
+}
+.s4box h3{
+  margin: 15px 0;
+}
+.s4box img{
+  margin-left: 40px;
+}
+.s4ota{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.end{
+  background-color: #CCFF8B;
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+  margin: 30px 0;
+}.end h1{
+  color: black;
+}.end .bt-w{
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  border: none;
+}
+
+footer{
+  background-color: #12141D;
+  padding: 30px 0;
+  border-bottom: 1px solid grey;
+
+}
+footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer ul{
+  display: flex;
+  gap: 22px;
+}
+
+@media(max-width:400px){
+  header nav{
+     display: none;
+  }
+  header .bt-green{
+    display: none;
+  }
+  .s1 img{
+    width: 200px;
+  }
+  .s1ota{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .s1t{
+    text-align: center;
+  }
+  .end{
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  footer ul{
+    display: none;
+  }
+  .s4ota{
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .s3 img{
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .s2ota{
+    gap: 30px;
+  }
+}
